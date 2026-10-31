@@ -52,7 +52,7 @@ Feature: Automated Job Search on Indeed
 
   @milestone2
   Scenario: Save job listings to database
-    And I search for "Backend Developer" jobs in "Benguluru"
+    Given I search for "Backend Developer" jobs in "Benguluru"
     And I extract jobs from 1 pages
     Then I should have extracted multiple job listings
     #adding comment
