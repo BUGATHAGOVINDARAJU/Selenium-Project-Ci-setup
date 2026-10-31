@@ -1,0 +1,17 @@
+Feature: Automated Job Search on Indeed # features/job_search.feature:1
+  As a job seeker
+  I want to automate job search on Indeed
+  So that I can efficiently find relevant job opportunities
+  Feature: Automated Job Search on Indeed  # features/job_search.feature:1
+
+  @milestone2 @test123
+  Scenario: Extract job details from search results                       # features/job_search.feature:30
+    Given I am on the Indeed job board website                            # features/steps/job_search_steps.py:19
+    When I search for "Data Analyst" jobs in "Benguluru"                  # features/steps/job_search_steps.py:42
+    Then I should be able to extract job listings with following details: # features/steps/job_search_steps.py:123
+      | field_name  |
+      | title       |
+      | company     |
+      | location    |
+      | description |
+

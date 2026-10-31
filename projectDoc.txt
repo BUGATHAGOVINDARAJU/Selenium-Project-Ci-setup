@@ -1,0 +1,7 @@
+Automated Job Search Agent Description Develop a Selene based tool that automates 
+the job search process on job boards like Indeed or LinkedIn. Here it is having 3 milestones.
+ Milestone 1 Website Navigation Requirements Use Selene to open a job board website 
+ and automate the process of entering job search criteria, like job title, location, then navigate through the search results page. 
+ Milestone 2 Data Extraction Here requirement is extract relevant job listing details such as the title, company, location, and description. 
+ Handle pagination to process multiple pages of the results. 
+ Milestone 3 Notification System Here requirements Save extracted job listing in structured format.Structure form an example to implement an email or desktop notification system to alert the user about new job listing matching their criteria.
